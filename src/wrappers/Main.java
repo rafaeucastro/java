@@ -1,7 +1,8 @@
 package wrappers;
 
 public class Main {
-    public static void main(String[] args) {
+    @SuppressWarnings("unused")
+	public static void main(String[] args) {
         Short num7 = new Short((short)7);
         Long num9 = new Long(90000l);
         Integer num100 = new Integer(100);

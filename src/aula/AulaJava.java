@@ -2,7 +2,8 @@ package aula;
 
 public class AulaJava {
      String letter;
-    public static void main(String[] args) {
+    @SuppressWarnings("unused")
+	public static void main(String[] args) {
 	//TIPOS PRIMITIVOS
 	byte value = -127; //8 bits: -127 até 127
 	short svalue = 10; //2 bytes
